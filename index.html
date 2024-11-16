@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Type Speed Test</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="game" id="typetest">
+      <div class="name">Typing Speed Test Game</div>
+      <div class="gameContainer">
+        <div class="message">
+          You Are Playing On
+          <span class="lvl"></span> Level & You Have
+          <span class="typingTime"></span> Seconds To Type The Words
+        </div>
+        <div class="control">
+          <div class="time">time left: <span></span> seconds</div>
+          <div class="score">
+            score: <span class="got">0</span> from <span class="total"></span>
+          </div>
+        </div>
+        <div class="finish"></div>
+        <div class="start">Start playing</div>
+        <div class="the-word"></div>
+        <input type="text" class="gameInput" />
+        <div class="upcoming-words">words will show here</div>
+        <ul class="instruc">
+          <li>Instructions:</li>
+          <li>1- You Have To Write The Random words will apper</li>
+          <li>2- you have to write <span class="num"></span> words</li>
+          <li>3- you have <span class="time"></span> Seconds</li>
+          <li>4- You are on <span class="def"></span> Diffeculty</li>
+        </ul>
+        <div class="chooseBox">
+          <p>Easy</p>
+          <p class="choose">Normal</p>
+          <p>Hard</p>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
